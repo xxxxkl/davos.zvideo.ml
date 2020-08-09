@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,10 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="lib/player.js"></script>
+
 </head>
 
 <body>
-
+    <div id="player"></div>
+    <script>
+        var playerInstance = jwplayer('x');
+        playerInstance.setup({
+            id: 'x',
+            file: 'https://video-downloads.googleusercontent.com/AGQNM9JzrcIyIDHa94AEozBpOlNNol5M21-8g3Wt-kRsUxwkXpRpbENNoLYhzm4K9hEww7pGs-pmKJTMqSH7hThO1zczSr-VW6Y5a2GMWQ3I7Z8xJqm7Haynozvf6iIk0lGYUVrmchf_go5SZvljUZDnPgHudycLHnL4CYifSX444dvwJZQg1bOfoZpkLz0pwoTb7a2e3wE2tscVF-aOvPpPHoD2Ub-Nl1HYc5md6jxDMg9rijRKHDXGnAfng-FXXc15RDGwUI0Jw9gYSfsTvuxNl4B-1BFlPgSFUT0V0Uqc5GvoHI8jHSMA7KcdWGNIBfkCuNZhA4ExdNsXJh5of_MNlaraIIy5q3XLjK6uXykYipbc2ydyuEPdkLpDe97mOHeDHZtm5LBXqRWn8G2VGmxy3K3UX8GrN5Yricnv8N8hcpQk5aWV9pPW6fQyc_-KMwRA0M8qnxYXw_7Awbj4nu7ztSClcyqWjNIELihI2vAzp6RYQ3jLclXBso9fXT6oOLXwiLeng96L21Tln3YdkwoTXxGrQDm5ad84jaQA5qH3BJPJafjdo6QdQi27EmY3WDEjXqRXrXj4nmSBXYN5OAKBeLtHbiVtaixYABRaAOqDxLH7vuzug1tSIbOcmwD1DzVViG5JH6OwlvAB2o__moH8cZNxKBt6UEBYzaLBzcd1zJINkdvI6Gp-Y6AoEs_YvQ3wZ_DL-m9alXQGgtdOtylwLuEd0hYA_clxz_lCZxohs6dtnBBk-BjMfGZ-7affw-_GvwIpnmshcTlQ_INyhdSbriXhLeBkhLwmpGiytQph_JPTfjg41apLwVzD3AVw2WLweMN0D0m1U63xRpNT8yDKMuRwLudcUkfJQ6HA1AYF0r7kwghzBhg',
+            type: 'mp4',
+            //type:'video/x-matroska',
+            controls: true,
+            displaytitle: true,
+            width: '100%',
+            height: '100%',
+            aspectratio: '16:9',
+            fullscreen: 'true',
+            autostart: true,
+        });
+    </script>
 </body>
 
 </html>

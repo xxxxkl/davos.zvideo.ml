@@ -1,0 +1,8 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=4571658,CODECS="avc1.77.40,mp4a.40.2",RESOLUTION=1920x1080
+https://bcovlive-a.akamaihd.net/5e1130abab7b43ebbe280ded6826afd7/ap-northeast-1/5764318566001/profile_0/chunklist.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1732608,CODECS="avc1.100.32,mp4a.40.2",RESOLUTION=1280x720
+https://bcovlive-a.akamaihd.net/5e1130abab7b43ebbe280ded6826afd7/ap-northeast-1/5764318566001/profile_1/chunklist.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1015808,CODECS="avc1.77.31,mp4a.40.2",RESOLUTION=960x540
+https://bcovlive-a.akamaihd.net/5e1130abab7b43ebbe280ded6826afd7/ap-northeast-1/5764318566001/profile_2/chunklist.m3u8
